@@ -1,0 +1,29 @@
+int array [3] a;
+int array [3] b;
+int array [3] c;
+int i;
+int j;
+int x;
+
+a[0] = 1;
+a[1] = 2;
+a[2] = 3;
+
+b[0] = -1;
+b[1] = -1;
+b[2] = -1;
+
+for ( i = 0; i < 3 ; i = i + 1) do { 
+
+          c[i] = a[i] + b[i];
+          x = c[i];
+          
+          writes "c[";
+          write i;
+          writes "] = ";
+          write x;
+          writes "\n";
+}
+
+
+return 0;

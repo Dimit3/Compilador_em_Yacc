@@ -1,0 +1,23 @@
+int n = READ;
+int i;
+int x;
+int r = 1;
+int array [ 100 ] v ;
+int k ;
+
+
+for ( i = 1; i < (n + 1) ; i = i + 1 ) do {
+
+     x[i] = READ;
+     j = t * x;
+     
+
+     writes "apos ";
+     write i * 2;
+     writes " iteracoes o produtorio e ";
+     write r;
+     writes "\n";
+     
+     }
+
+return r;

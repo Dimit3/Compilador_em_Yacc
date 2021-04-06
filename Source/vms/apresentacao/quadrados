@@ -1,0 +1,8 @@
+int x = READ;
+int y = READ;
+int z = READ;
+int w = READ;
+int r;
+
+if ((x == y) and (y == z) and (z == w)) then {r = 1; writes "E um quadrado\n";} else {r = 0;writes "Nao e um quadrado\n";}
+return r;

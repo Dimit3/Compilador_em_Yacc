@@ -1,0 +1,14 @@
+int n = READ;
+int i;
+int c = 0;
+int x;
+int y;
+
+for ( i = 0; i < n ; i = i + 1 ) do {
+
+     x = READ;
+     y = x%2;
+     if (   y != 0 ) then { c = c + 1; writes "Numero impar = " ; write x ; writes "\n"; } }
+     
+
+return c;

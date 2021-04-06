@@ -1,0 +1,26 @@
+int n = READ;
+int i;
+int x;
+int array [10] v;
+
+for ( i = 0; i < n ; i = i + 1 ) do {
+
+     x = READ;
+     v[i] = x;
+     
+     }
+
+for ( i = n-1; i > -1 ; i = i - 1 ) do {
+
+     x = v[i];
+     
+     writes "v[";
+     write i;
+     writes "] = ";
+     write x;
+     writes "\n\n";
+     
+     }
+
+return 0;
+

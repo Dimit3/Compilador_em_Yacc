@@ -1,0 +1,26 @@
+int array [2][4] v;
+int i;
+int j;
+int x;
+
+for ( i = 0; i < 2 ; i = i + 1) do { 
+	for ( j = 0; j < 4; j = j + 1 ) do {
+		v4 [i][j] = i + j;
+	}
+}
+
+for ( i = 0; i < 2 ; i = i + 1) do { 
+	for ( j = 0; j < 4 ; j = j + 1 ) do {
+	        x = v4 [i][j];
+		
+          	writes "v[";
+          	write i;
+          	writes "][";
+          	write j;
+          	writes "] = ";
+          	write x;
+		writes "\n\n";
+	}
+}
+
+return 0;
